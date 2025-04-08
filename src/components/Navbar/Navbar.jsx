@@ -20,8 +20,9 @@ export default function Navbar(){
                 <img src={logo} alt="Imagen Logo Breaking News" className="cursor-pointer w-[145px] h-[145px]" />
 
                 <button 
-                    className="cursor-pointer w-34 h-12 rounded-md font-medium tracking-widest
+                    className="cursor-pointer w-34 h-12 rounded-md font-medium tracking-widest outline-none
                     bg-[#2C8AB4] text-white  hover:bg-[#0a86af]
+                    transition-colors duration-200
                 ">
                     ENTRAR
                 </button>
