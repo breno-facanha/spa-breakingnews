@@ -25,8 +25,8 @@ export default function(){
                                 title={ele.title}
                                 text={ele.text}
                                 banner={ele.banner}
-                                likes={ele.lenght}
-                                comments={ele.lenght}
+                                likes={ele.likes.length}
+                                comments={ele.comments.length}
                             />
                 })}
              </div>
