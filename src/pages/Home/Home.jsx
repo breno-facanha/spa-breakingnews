@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Card from "../../components/Cards/Card";
 import Navbar from "../../components/Navbar/Navbar";
-import {news} from "../../Datas.js"
+// import {news} from "../../Datas.js"
 import { getAllPosts } from "../../services/userServices.js";
 
 export default function(){
@@ -13,7 +13,9 @@ export default function(){
         setNews(response.data.results)
     }
 
-    findAllNews()
+    useEffect(() => {
+        findAllNews()
+    }, [])
 
     return (
         <div className="w-full">
