@@ -5,15 +5,15 @@ export default function Card(props) {
        
             <div className="w-[700px] flex h-auto flex-col py-5 px-10 bg-white mt-4 rounded-md shadow-custom-card">
 
-                <div className="flex w-full  gap-5">
+                <div className="flex flex-col  w-full  gap-5">
 
-                    <div className="w-[70%]">
+                    <div className="w-full flex items-center justify-between">
                         <h2 className="font-bold mb-5 mt-8 text-4xl">{props.title}</h2>
-                        <p className="">{props.text}</p>
+                        <img className="w-[200px] h-[200px] object-cover" src={props.banner} alt="imagen da Noticia" />
                     </div>
 
-                    <div className="w-[30%] flex justify-center">
-                        <img className="w-full h-[250px] object-cover" src={props.banner} alt="imagen da Noticia" />
+                    <div className="w-full flex justify-center">
+                        <p className="line-clamp-2">{props.text}</p>
                     </div>
                 </div>
 
