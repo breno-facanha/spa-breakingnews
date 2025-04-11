@@ -36,6 +36,7 @@ export default function(){
                     banner={topNews.banner}
                     likes={topNews.likes}
                     comments={topNews.comments}
+                    top={true}
                 />
                 {news.map((ele) =>{
                     return  <Card 
