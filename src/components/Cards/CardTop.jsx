@@ -1,8 +1,8 @@
 import { FaRegHeart, FaRegCommentDots } from "react-icons/fa";
 
-export default function Card(props) {
+export default function CardTop(props) {
   return (
-    <div className="h-[300px] flex w-[49%] justify-between bg-white mt-4 pl-8 gap-4 rounded-md shadow-custom-card">
+    <div className="h-[300px] flex w-[98.5%] bg-white mt-4 pl-8 gap-4 rounded-md shadow-custom-card">
         
         <div className="w-[70%] h-auto flex flex-col">
             <div className="w-full h-full flex flex-col mt-2 gap-10">
