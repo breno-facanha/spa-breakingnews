@@ -1,5 +1,6 @@
 import logo from "../../images/LogoBN.png"
 import { IoSearchOutline } from "react-icons/io5";
+import { Outlet } from "react-router";
 
 
 export default function Navbar(){
@@ -27,6 +28,7 @@ export default function Navbar(){
                     ENTRAR
                 </button>
             </nav>
+            <Outlet />
         </>
     )
 }

@@ -27,7 +27,7 @@ export default function(){
 
     return (
         <div className="w-full">
-            <Navbar />
+            
             <div className=" w-full flex flex-wrap justify-center px-10 bg-[#F1F1F1] gap-4 ">
                 <CardTop 
                     key={topNews.id} 

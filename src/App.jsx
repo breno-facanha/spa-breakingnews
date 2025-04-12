@@ -1,9 +1,8 @@
-import Home from "./pages/Home/Home";
-
+import { Outlet } from "react-router";
 function App() {
   return (
     <div className="w-full h-screen">
-      <Home />
+      <Outlet />
     </div>
    
   );
